@@ -190,7 +190,8 @@ public class VirustotalPublicV2Impl implements VirustotalPublicV2 {
 
     @Override
     public FileScanReport[] getScanReports(String[] resources) throws UnsupportedEncodingException, UnauthorizedAccessException, QuotaExceededException, InvalidArguentsException {
-        Response responseWrapper = new Response();
+    	System.out.println("getScanReport"+ URI_VT2_FILE_SCAN_REPORT);
+    	Response responseWrapper = new Response();
         FileScanReport[] fileScanReport = null;
         if (resources == null) {
             throw new InvalidArguentsException("Incorrect parameter \'resources\', resource should be an array with at least one element");
@@ -297,7 +298,9 @@ public class VirustotalPublicV2Impl implements VirustotalPublicV2 {
 
     @Override
     public FileScanReport[] getUrlScanReport(String[] urls, boolean scan) throws UnsupportedEncodingException, UnauthorizedAccessException, QuotaExceededException, InvalidArguentsException {
-        Response responseWrapper = new Response();
+    	System.out.println("getUrlScanReport"+ URI_VT2_URL_SCAN_REPORT);
+    	
+    	Response responseWrapper = new Response();
         FileScanReport[] fileScanReport = null;
         if (urls == null) {
             throw new InvalidArguentsException("Incorrect parameter \'resources\', resource should be an array with at least one element");

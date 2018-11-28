@@ -22,14 +22,14 @@ import java.io.UnsupportedEncodingException;
  */
 public interface VirustotalPublicV2 {
 
-    String URI_VT2_FILE_SCAN = "https://www.virustotal.com/vtapi/v2/file/scan";
-    String URI_VT2_RESCAN = "https://www.virustotal.com/vtapi/v2/file/rescan";
-    String URI_VT2_FILE_SCAN_REPORT = "https://www.virustotal.com/vtapi/v2/file/report";
-    String URI_VT2_URL_SCAN = "https://www.virustotal.com/vtapi/v2/url/scan";
-    String URI_VT2_URL_SCAN_REPORT = "http://www.virustotal.com/vtapi/v2/url/report";
-    String URI_VT2_IP_REPORT = "http://www.virustotal.com/vtapi/v2/ip-address/report";
-    String URI_VT2_DOMAIN_REPORT = "http://www.virustotal.com/vtapi/v2/domain/report";
-    String URI_VT2_PUT_COMMENT = "https://www.virustotal.com/vtapi/v2/comments/put";
+    String URI_VT2_FILE_SCAN = "https://virustotal.com/vtapi/v2/file/scan";
+    String URI_VT2_RESCAN = "https://virustotal.com/vtapi/v2/file/rescan";
+    String URI_VT2_FILE_SCAN_REPORT = "https://virustotal.com/vtapi/v2/file/report";
+    String URI_VT2_URL_SCAN = "https://virustotal.com/vtapi/v2/url/scan";
+    String URI_VT2_URL_SCAN_REPORT = "http://virustotal.com/vtapi/v2/url/report";
+    String URI_VT2_IP_REPORT = "http://virustotal.com/vtapi/v2/ip-address/report";
+    String URI_VT2_DOMAIN_REPORT = "http://virustotal.com/vtapi/v2/domain/report";
+    String URI_VT2_PUT_COMMENT = "https://virustotal.com/vtapi/v2/comments/put";
     String VT2_URLSEPERATOR = "\n";
     int VT2_MAX_ALLOWED_URLS_PER_REQUEST = 4;
 

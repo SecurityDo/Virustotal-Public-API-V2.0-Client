@@ -28,6 +28,9 @@ public class DomainReport {
     @SerializedName("verbose_msg")
     private String verboseMessage;
 
+    @SerializedName("whois")
+    private String whois;
+
     public Sample[] getUndetectedDownloadedSamples() {
         return undetectedDownloadedSamples;
     }
@@ -91,4 +94,8 @@ public class DomainReport {
     public void setVerboseMessage(String verboseMessage) {
         this.verboseMessage = verboseMessage;
     }
+    public String getWhois() {
+        return whois;
+    }
+
 }
